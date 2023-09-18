@@ -2,7 +2,8 @@ package org.example.account;
 
 
 public class CheckingAccount extends Account {
-    public CheckingAccount(String accountNumber, double initialBalance) {
+    public CheckingAccount(String accountName, String accountNumber, double initialBalance) {
+        this.accountName = accountName;
         this.accountNumber = accountNumber;
         this.balance = initialBalance;
     }
